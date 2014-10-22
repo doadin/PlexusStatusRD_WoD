@@ -11,7 +11,7 @@ GridStatusRaidDebuff:BossNameId(zoneid, 10, "Blackhand")
 GridStatusRaidDebuff:DebuffId(zoneid, 156096, 11, 5, 5) --MARKEDFORDEATH
 GridStatusRaidDebuff:DebuffId(zoneid, 156107, 12, 5, 5) --IMPALED
 GridStatusRaidDebuff:DebuffId(zoneid, 156047, 13, 5, 5) --SLAGGED
-GridStatusRaidDebuff:DebuffId(zoneid, 156401, 14, 5, 5) --MOLTENSLAG
+GridStatusRaidDebuff:DebuffId(zoneid, 156401, 14, 5, 5, true, true) --MOLTENSLAG
 
 --BURNED 
 GridStatusRaidDebuff:DebuffId(zoneid, 158054, 15, 5, 5) --SHATTERINGSMASH 158054 155992 159142
@@ -33,15 +33,15 @@ GridStatusRaidDebuff:DebuffId(zoneid, 155318, 31, 5, 5) --LAVASLASH
 GridStatusRaidDebuff:DebuffId(zoneid, 155277, 32, 5, 5) --BLAZINGRADIANCE
 GridStatusRaidDebuff:DebuffId(zoneid, 154952, 33, 5, 5) --FIXATE
 GridStatusRaidDebuff:DebuffId(zoneid, 155074, 34, 5, 5) --CHARRINGBREATH
-GridStatusRaidDebuff:DebuffId(zoneid, 163284, 35, 5, 5) --RISINGFLAME
+GridStatusRaidDebuff:DebuffId(zoneid, 163284, 35, 5, 5, true, true) --RISINGFLAME
 GridStatusRaidDebuff:DebuffId(zoneid, 162293, 36, 5, 5) --EMPOWEREDARMAMENT
 
 --Operator Thogar 
 GridStatusRaidDebuff:BossNameId(zoneid, 40, "Operator Thogar")
-GridStatusRaidDebuff:DebuffId(zoneid, 155921, 41, 5, 5) --ENKINDLE
+GridStatusRaidDebuff:DebuffId(zoneid, 155921, 41, 5, 5, true, true) --ENKINDLE
 GridStatusRaidDebuff:DebuffId(zoneid, 165195, 42, 5, 5) --PROTOTYPEPULSEGRENADE
 GridStatusRaidDebuff:DebuffId(zoneid, 155701, 43, 5, 5) --SERRATEDSLASH
-GridStatusRaidDebuff:DebuffId(zoneid, 164380, 44, 5, 5) --BURNING
+GridStatusRaidDebuff:DebuffId(zoneid, 164380, 44, 5, 5, true, true) --BURNING
 
 --The Blast Furnace
 GridStatusRaidDebuff:BossNameId(zoneid, 50, "The Blast Furnace")
