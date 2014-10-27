@@ -6,6 +6,11 @@ local zoneid = 988
 
 --Trash
 
+-- Check Compatibility
+if GridStatusDungeonDebuff < 600 then
+	return
+end
+
 --Blackhand
 GridStatusRaidDebuff:BossNameId(zoneid, 10, "Blackhand")
 GridStatusRaidDebuff:DebuffId(zoneid, 156096, 11, 4, 4) --MARKEDFORDEATH

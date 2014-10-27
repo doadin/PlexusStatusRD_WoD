@@ -4,6 +4,11 @@ local zoneid = 994
 --zoneid, debuffID, order, icon_priority, colorpriority, timer, stackable, color, defaultdisable, noicon
 --, true, true is for stackable
 
+-- Check Compatibility
+if GridStatusDungeonDebuff < 600 then
+	return
+end
+
 --Trash
 
 --The Butcher
