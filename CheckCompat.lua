@@ -37,8 +37,8 @@ end
 local EventFrame = CreateFrame("Frame")
 EventFrame:RegisterEvent("PLAYER_ENTERING_WORLD")
 EventFrame:SetScript("OnEvent", function(self, event, ...)
-	if GridStatusRD.rd_version < 600 then
-		GridStatusRD:PrintNotCompat()
+	if GridStatusRD_WoD.rd_version < 600 then
+		GridStatusRD_WoD:PrintNotCompat()
 		StaticPopup_Show("GridStatusRD_WoD_Compat")
 	end
 end)
