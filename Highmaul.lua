@@ -10,10 +10,10 @@ if GridStatusRD_WoD.rd_version < 600 then
 end
 
 --Trash
-GridStatusRaidDebuff:DebuffId(zoneid, 1, 175601, 5, 5) -- Trash  TAINTED CLAWS
-GridStatusRaidDebuff:DebuffId(zoneid, 1, 172069, 5, 5) -- Trash RADIATING POISON
-GridStatusRaidDebuff:DebuffId(zoneid, 1, 56037,  4, 4) -- Trash  RUNE OF DESTRUCTION
-GridStatusRaidDebuff:DebuffId(zoneid, 1, 175654, 5, 5) -- Trash RUNE OF DISINTEGRATION
+GridStatusRaidDebuff:DebuffId(zoneid, 175601, 1, 5, 5) -- Trash  TAINTED CLAWS
+GridStatusRaidDebuff:DebuffId(zoneid, 172069, 1, 5, 5) -- Trash RADIATING POISON
+GridStatusRaidDebuff:DebuffId(zoneid, 56037, 1,  4, 4) -- Trash  RUNE OF DESTRUCTION
+GridStatusRaidDebuff:DebuffId(zoneid, 175654, 1, 5, 5) -- Trash RUNE OF DISINTEGRATION
 --GridStatusRaidDebuff:DebuffId(zoneid, 1,       , 5, 5) -- Trash  RENDING SLASH
 
 --The Butcher
