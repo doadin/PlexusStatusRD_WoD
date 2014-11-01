@@ -10,6 +10,11 @@ if GridStatusRD_WoD.rd_version < 600 then
 end
 
 --Trash
+GridStatusRaidDebuff:DebuffId(zoneid, 1, 175601, 5, 5) -- Trash  TAINTED CLAWS
+GridStatusRaidDebuff:DebuffId(zoneid, 1, 172069, 5, 5) -- Trash RADIATING POISON
+GridStatusRaidDebuff:DebuffId(zoneid, 1, 56037,  4, 4) -- Trash  RUNE OF DESTRUCTION
+GridStatusRaidDebuff:DebuffId(zoneid, 1, 175654, 5, 5) -- Trash RUNE OF DISINTEGRATION
+--GridStatusRaidDebuff:DebuffId(zoneid, 1,       , 5, 5) -- Trash  RENDING SLASH
 
 --The Butcher
 GridStatusRaidDebuff:BossNameId(zoneid, 10, "The Butcher")
@@ -29,6 +34,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 160521, 26, 6, 6) --VILEBREATH
 GridStatusRaidDebuff:DebuffId(zoneid, 159386, 27, 5, 5) --IRONBOMB
 GridStatusRaidDebuff:DebuffId(zoneid, 159188, 28, 5, 5) --GRAPPLE
 GridStatusRaidDebuff:DebuffId(zoneid, 162497, 29, 4, 4) --ONTHEHUNT
+GridStatusRaidDebuff:DebuffId(zoneid, 159202, 30, 5, 5) --FLAME JET
 
 --Twin Ogron 
 GridStatusRaidDebuff:BossNameId(zoneid, 40, "Twin Ogron")
@@ -42,10 +48,12 @@ GridStatusRaidDebuff:DebuffId(zoneid, 163374, 46, 4, 4) --ARCANEVOLATILITY
 --Ko'ragh
 GridStatusRaidDebuff:BossNameId(zoneid, 50, "Ko'ragh")
 GridStatusRaidDebuff:DebuffId(zoneid, 161242, 51, 4, 4) --CAUSTICENERGY
-GridStatusRaidDebuff:DebuffId(zoneid, 162184, 52, 6, 6) --EXPELMAGICSHADOW
-GridStatusRaidDebuff:DebuffId(zoneid, 162186, 53, 6, 6) --EXPELMAGICARCANE
-GridStatusRaidDebuff:DebuffId(zoneid, 163472, 54, 4, 4) --DOMINATINGPOWER
-GridStatusRaidDebuff:DebuffId(zoneid, 162185, 55, 7, 7) --EXPELMAGICFEL
+GridStatusRaidDebuff:DebuffId(zoneid, 161358, 52, 4, 4) --SUPPRESSION FIELD
+GridStatusRaidDebuff:DebuffId(zoneid, 162184, 53, 6, 6) --EXPELMAGICSHADOW
+GridStatusRaidDebuff:DebuffId(zoneid, 162186, 54, 6, 6) --EXPELMAGICARCANE
+GridStatusRaidDebuff:DebuffId(zoneid, 161411, 55, 6, 6) --EXPELMAGICFROST
+GridStatusRaidDebuff:DebuffId(zoneid, 163472, 56, 4, 4) --DOMINATINGPOWER
+GridStatusRaidDebuff:DebuffId(zoneid, 162185, 57, 7, 7) --EXPELMAGICFEL
 
 --Tectus
 GridStatusRaidDebuff:BossNameId(zoneid, 60, "Tectus")
