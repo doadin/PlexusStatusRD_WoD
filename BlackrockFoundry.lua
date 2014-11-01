@@ -27,7 +27,7 @@ GridStatusRaidDebuff:BossNameId(zoneid, 20, "Beastlord Darmac")
 GridStatusRaidDebuff:DebuffId(zoneid, 155365, 21, 4, 4) --PINNEDDOWN
 GridStatusRaidDebuff:DebuffId(zoneid, 155061, 22, 5, 5) --RENDANDTEAR
 GridStatusRaidDebuff:DebuffId(zoneid, 155030, 23, 6, 6) --SEAREDFLESH
-GridStatusRaidDebuff:DebuffId(zoneid, 155236, 24, 6, 6) --CRUSHARMOR
+GridStatusRaidDebuff:DebuffId(zoneid, 155236, 24, 6, 6, true, true) --CRUSHARMOR
 GridStatusRaidDebuff:DebuffId(zoneid, 159044, 25, 6, 6) --EPICENTRE
 GridStatusRaidDebuff:DebuffId(zoneid, 162276, 26, 6, 6) --UNSTEADY Mythic
 GridStatusRaidDebuff:DebuffId(zoneid, 155657, 27, 6, 6) --FLAMEINFUSION
@@ -37,7 +37,7 @@ GridStatusRaidDebuff:BossNameId(zoneid, 30, "Flamebender Ka'graz")
 GridStatusRaidDebuff:DebuffId(zoneid, 155318, 31, 5, 5) --LAVASLASH
 GridStatusRaidDebuff:DebuffId(zoneid, 155277, 32, 4, 4) --BLAZINGRADIANCE
 GridStatusRaidDebuff:DebuffId(zoneid, 154952, 33, 4, 4) --FIXATE
-GridStatusRaidDebuff:DebuffId(zoneid, 155074, 34, 6, 6) --CHARRINGBREATH
+GridStatusRaidDebuff:DebuffId(zoneid, 155074, 34, 6, 6, true, true) --CHARRINGBREATH
 GridStatusRaidDebuff:DebuffId(zoneid, 163284, 35, 5, 5, true, true) --RISINGFLAME
 GridStatusRaidDebuff:DebuffId(zoneid, 162293, 36, 5, 5) --EMPOWEREDARMAMENT
 
@@ -77,7 +77,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 165300, 85, 6, 6) --FLARE Mythic
 --Kromog
 GridStatusRaidDebuff:BossNameId(zoneid, 90, "Kromog")
 GridStatusRaidDebuff:DebuffId(zoneid, 157060, 91, 5, 5) --RUNEOFGRASPINGEARTH
-GridStatusRaidDebuff:DebuffId(zoneid, 156766, 92, 6, 6) --WARPEDARMOR
+GridStatusRaidDebuff:DebuffId(zoneid, 156766, 92, 6, 6, true, true) --WARPEDARMOR
 GridStatusRaidDebuff:DebuffId(zoneid, 161839, 93, 7, 7) --RUNEOFCRUSHINGEARTH
 
 --Oregorger

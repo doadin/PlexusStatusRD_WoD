@@ -58,7 +58,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 162185, 57, 7, 7) --EXPELMAGICFEL
 --Tectus
 GridStatusRaidDebuff:BossNameId(zoneid, 60, "Tectus")
 --CRYSTALLINEBARRAGE
---PETRIFICATION
+GridStatusRaidDebuff:DebuffId(zoneid, 162892, 61, 5, 5) --INFESTINGSPORES--PETRIFICATION
 
 --Brackenspore
 GridStatusRaidDebuff:BossNameId(zoneid, 70, "Brackenspore")
