@@ -14,7 +14,12 @@ GridStatusRaidDebuff:DebuffId(zoneid, 175601, 1, 5, 5) -- Trash  TAINTED CLAWS
 GridStatusRaidDebuff:DebuffId(zoneid, 172069, 1, 5, 5) -- Trash RADIATING POISON
 GridStatusRaidDebuff:DebuffId(zoneid, 56037, 1,  4, 4) -- Trash  RUNE OF DESTRUCTION
 GridStatusRaidDebuff:DebuffId(zoneid, 175654, 1, 5, 5) -- Trash RUNE OF DISINTEGRATION
+--GridStatusRaidDebuff:DebuffId(zoneid, 174473, 1, 5, 5) -- Trash Corrupted Blood
 --GridStatusRaidDebuff:DebuffId(zoneid, 1,       , 5, 5) -- Trash  RENDING SLASH
+GridStatusRaidDebuff:DebuffId(zoneid, 174939, 1, 4, 4) -- Time Stop
+GridStatusRaidDebuff:DebuffId(zoneid, 172066, 1, 4, 4) -- Radiating Poison
+GridStatusRaidDebuff:DebuffId(zoneid, 172115, 1, 4, 4) -- Earthen Thrust
+GridStatusRaidDebuff:DebuffId(zoneid, 166200, 1, 4, 4) --ARCANEVOLATILITY
 
 --The Butcher
 GridStatusRaidDebuff:BossNameId(zoneid, 10, "The Butcher")
@@ -44,6 +49,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 155569, 43, 5, 5) --INJURED
 GridStatusRaidDebuff:DebuffId(zoneid, 167200, 44, 5, 5, true, true) --ARCANEWOUND
 GridStatusRaidDebuff:DebuffId(zoneid, 159709, 45, 6, 6, true, true) --WEAKENEDDEFENSES 159709 167179
 GridStatusRaidDebuff:DebuffId(zoneid, 163374, 46, 4, 4) --ARCANEVOLATILITY
+GridStatusRaidDebuff:DebuffId(zoneid, 158200, 47, 4, 4) --QUAKE
 
 --Ko'ragh
 GridStatusRaidDebuff:BossNameId(zoneid, 50, "Ko'ragh")
@@ -57,8 +63,9 @@ GridStatusRaidDebuff:DebuffId(zoneid, 162185, 57, 7, 7) --EXPELMAGICFEL
 
 --Tectus
 GridStatusRaidDebuff:BossNameId(zoneid, 60, "Tectus")
---CRYSTALLINEBARRAGE
-GridStatusRaidDebuff:DebuffId(zoneid, 162892, 61, 5, 5) --INFESTINGSPORES--PETRIFICATION
+GridStatusRaidDebuff:DebuffId(zoneid, 162346, 61, 5, 5) --CRYSTALLINEBARRAGE
+GridStatusRaidDebuff:DebuffId(zoneid, 162892, 62, 5, 5) --PETRIFICATION
+GridStatusRaidDebuff:DebuffId(zoneid, 162475, 63, 5, 5) --Tectonic Upheaval
 
 --Brackenspore
 GridStatusRaidDebuff:BossNameId(zoneid, 70, "Brackenspore")
