@@ -1,8 +1,0 @@
-package-as: GridStatusRD_WoD
-
-required-dependencies:
-    - GridStatusRaidDebuff
-
-#manual-changelog: CHANGELOG.txt
-
-license-output: LICENSE.txt
