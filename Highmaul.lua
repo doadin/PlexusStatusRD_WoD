@@ -72,7 +72,7 @@ GridStatusRaidDebuff:BossNameId(zoneid, 70, "Brackenspore")
 GridStatusRaidDebuff:DebuffId(zoneid, 163242, 71, 5, 5, true, true) --INFESTINGSPORES
 GridStatusRaidDebuff:DebuffId(zoneid, 163590, 72, 5, 5) --CREEPINGMOSS
 GridStatusRaidDebuff:DebuffId(zoneid, 163241, 73, 5, 5, true, true) --ROT
-GridStatusRaidDebuff:DebuffId(zoneid, 159220, 74, 4, 4) --NECROTICBREATH
+GridStatusRaidDebuff:DebuffId(zoneid, 159220, 74, 6, 6) --NECROTICBREATH
 GridStatusRaidDebuff:DebuffId(zoneid, 160179, 75, 6, 6) --MINDFUNGUS
 GridStatusRaidDebuff:DebuffId(zoneid, 159972, 76, 6, 6, true, true) --FLESHEATER
 
