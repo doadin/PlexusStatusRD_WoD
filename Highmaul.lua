@@ -100,3 +100,4 @@ GridStatusRaidDebuff:DebuffId(zoneid, 164191, 92, 4, 4) --MARK OF CHAOS REPLICAT
 GridStatusRaidDebuff:DebuffId(zoneid, 157349, 93, 5, 5) --FORCE NOVA  157349 164232 164235 164240
 GridStatusRaidDebuff:DebuffId(zoneid, 157763, 94, 4, 4) --FIXATE
 GridStatusRaidDebuff:DebuffId(zoneid, 158553, 95, 6, 6, true, true) --CRUSH ARMOR
+GridStatusRaidDebuff:DebuffId(zoneid, 165102, 96, 6, 6) --Infinite Darkness
