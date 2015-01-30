@@ -101,4 +101,4 @@ GridStatusRaidDebuff:DebuffId(zoneid, 157349, 93, 5, 5) --FORCE NOVA  157349 164
 GridStatusRaidDebuff:DebuffId(zoneid, 157763, 94, 4, 4) --FIXATE
 GridStatusRaidDebuff:DebuffId(zoneid, 158553, 95, 6, 6, true, true) --CRUSH ARMOR
 GridStatusRaidDebuff:DebuffId(zoneid, 165102, 96, 7, 7) --Infinite Darkness
-GridStatusRaidDebuff:DebuffId(zoneid, 157801, 96, 7, 7) --Slow
+GridStatusRaidDebuff:DebuffId(zoneid, 157801, 97, 7, 7) --Slow
