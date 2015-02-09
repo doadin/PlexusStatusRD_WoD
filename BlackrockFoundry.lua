@@ -14,7 +14,7 @@ end
 --Blackhand
 GridStatusRaidDebuff:BossNameId(zoneid, 10, "Blackhand")
 GridStatusRaidDebuff:DebuffId(zoneid, 156096, 11, 4, 4) --MARKEDFORDEATH
-GridStatusRaidDebuff:DebuffId(zoneid, 156743, 12, 5, 5) --IMPALED
+GridStatusRaidDebuff:DebuffId(zoneid, 156743, 12, 7, 7) --IMPALED
 GridStatusRaidDebuff:DebuffId(zoneid, 156047, 13, 6, 6) --SLAGGED
 GridStatusRaidDebuff:DebuffId(zoneid, 156401, 14, 5, 5, true, true) --MOLTENSLAG
 GridStatusRaidDebuff:DebuffId(zoneid, 156404, 15, 6, 6, true, true) --BURNED
