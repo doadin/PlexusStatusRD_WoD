@@ -25,8 +25,8 @@ GridStatusRaidDebuff:DebuffId(zoneid, 156999, 20, 4, 4) --THROWSLAGBOMBS
 
 --Beastlord Darmac
 GridStatusRaidDebuff:BossNameId(zoneid, 30, "Beastlord Darmac")
-GridStatusRaidDebuff:DebuffId(zoneid, 155365, 31, 4, 4) --PINNEDDOWN
-GridStatusRaidDebuff:DebuffId(zoneid, 155061, 32, 5, 5) --RENDANDTEAR
+GridStatusRaidDebuff:DebuffId(zoneid, 154960, 31, 6, 6) --PINNEDDOWN
+GridStatusRaidDebuff:DebuffId(zoneid, 155061, 32, 5, 5, true, true) --RENDANDTEAR
 GridStatusRaidDebuff:DebuffId(zoneid, 155030, 33, 6, 6) --SEAREDFLESH
 GridStatusRaidDebuff:DebuffId(zoneid, 155236, 34, 6, 6, true, true) --CRUSHARMOR
 GridStatusRaidDebuff:DebuffId(zoneid, 159044, 35, 6, 6) --EPICENTRE
