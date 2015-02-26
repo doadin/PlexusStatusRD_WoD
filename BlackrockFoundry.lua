@@ -72,6 +72,7 @@ GridStatusRaidDebuff:BossNameId(zoneid, 80, "Hans'gar and Franzok")
 GridStatusRaidDebuff:DebuffId(zoneid, 157139, 81, 6, 6) --SHATTEREDVERTEBRAE
 GridStatusRaidDebuff:DebuffId(zoneid, 161570, 82, 5, 5) --SEARINGPLATES
 GridStatusRaidDebuff:DebuffId(zoneid, 157853, 83, 5, 5) --AFTERSHOCK
+GridStatusRaidDebuff:DebuffId(zoneid, 156938, 84, 6, 6) --CRIPPLINGSUPLEX
 
 --Gruul
 GridStatusRaidDebuff:BossNameId(zoneid, 90, "Gruul")
@@ -108,5 +109,5 @@ GridStatusRaidDebuff:DebuffId(zoneid, 158702, 127, 4, 4) --FIXATE
 GridStatusRaidDebuff:DebuffId(zoneid, 158686, 128, 6, 6) --EXPOSEARMOR
 GridStatusRaidDebuff:DebuffId(zoneid, 158683, 129, 5, 5) --CORRUPTEDBLOOD
 GridStatusRaidDebuff:DebuffId(zoneid, 159585, 130, 5, 5) --DEPLOYTURRET
-GridStatusRaidDebuff:DebuffId(zoneid, 156112, 131, 5, 5) --CONVULSIVESHADOWS
+GridStatusRaidDebuff:DebuffId(zoneid, 156112, 131, 5, 5, true, true) --CONVULSIVESHADOWS
 
