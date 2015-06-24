@@ -1,4 +1,4 @@
---local zone = "Blackrock Foundry"
+--local zone = "Hellfire Citadel"
 local zoneid = 7545
 
 --zoneid, debuffID, order, icon_priority, colorpriority, timer, stackable, color, defaultdisable, noicon
