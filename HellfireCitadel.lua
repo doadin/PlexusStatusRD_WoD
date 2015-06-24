@@ -36,6 +36,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 184358, 52, 5, 5) --Fel Rage
 --Kilrogg Deadeye
 GridStatusRaidDebuff:BossNameId(zoneid, 60, "Kilrogg Deadeye")
 GridStatusRaidDebuff:DebuffId(zoneid, 180372, 61, 6, 6) --Heart Seeker
+GridStatusRaidDebuff:DebuffId(zoneid, 182159, 62, 6, 6) --Fel Corruption
 
 
 --Gorefiend
