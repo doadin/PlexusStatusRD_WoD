@@ -10,4 +10,5 @@
 CheckCompat.lua
 BlackrockFoundry.lua
 Highmaul.lua
+HellfireCitadel.lua
 
