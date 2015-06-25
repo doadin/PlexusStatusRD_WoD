@@ -77,6 +77,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 186546, 111, 6, 6) --Black Hole
 GridStatusRaidDebuff:BossNameId(zoneid, 120, "Tyrant Velhari")
 GridStatusRaidDebuff:DebuffId(zoneid, 180166, 121, 6, 6) --Touch of Harm
 GridStatusRaidDebuff:DebuffId(zoneid, 180128, 122, 6, 6) --Edict of Condemnation
+GridStatusRaidDebuff:DebuffId(zoneid, 180526, 123, 6, 6) --Font of Corruption
 
 --Mannoroth
 GridStatusRaidDebuff:BossNameId(zoneid, 130, "Mannoroth")
