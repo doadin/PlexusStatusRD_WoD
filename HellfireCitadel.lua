@@ -65,9 +65,10 @@ GridStatusRaidDebuff:DebuffId(zoneid, 182635, 91, 5, 5) --REVERBERATINGBLOW
 GridStatusRaidDebuff:BossNameId(zoneid, 100, "Fel Lord Zakuun")
 GridStatusRaidDebuff:DebuffId(zoneid, 181508, 101, 6, 6) --SEEDOFDESTRUCTION
 GridStatusRaidDebuff:DebuffId(zoneid, 179620, 102, 6, 6) --FELCRYSTAL
-GridStatusRaidDebuff:DebuffId(zoneid, 189030, 103, 6, 6) --BEFOULEDRED
-GridStatusRaidDebuff:DebuffId(zoneid, 189031, 104, 6, 6) --BEFOULEDYELLOW
-GridStatusRaidDebuff:DebuffId(zoneid, 189032, 105, 6, 6) --BEFOULEDGREEN
+GridStatusRaidDebuff:DebuffId(zoneid, 179711, 103, 6, 6) --BEFOULED
+GridStatusRaidDebuff:DebuffId(zoneid, 189030, 104, 6, 6) --BEFOULEDRED
+GridStatusRaidDebuff:DebuffId(zoneid, 189031, 105, 6, 6) --BEFOULEDORANGE
+GridStatusRaidDebuff:DebuffId(zoneid, 189032, 106, 6, 6) --BEFOULEDGREEN
 
 --Xhul'horac
 GridStatusRaidDebuff:BossNameId(zoneid, 110, "Xhul'horac")
