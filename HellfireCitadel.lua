@@ -93,5 +93,6 @@ GridStatusRaidDebuff:DebuffId(zoneid, 183864, 132, 6, 6) --Shadow Blast
 GridStatusRaidDebuff:DebuffId(zoneid, 183828, 133, 6, 6) --Death Brand
 GridStatusRaidDebuff:DebuffId(zoneid, 184931, 134, 6, 6) --Shackled Torment
 GridStatusRaidDebuff:DebuffId(zoneid, 182879, 135, 6, 6) --Doomfire Fixate
+GridStatusRaidDebuff:DebuffId(zoneid, 182878, 136, 6, 6) --Doomfire
 
 
