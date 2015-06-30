@@ -51,7 +51,7 @@ GridStatusRaidDebuff:BossNameId(zoneid, 70, "Shadow-Lord Iskar")
 GridStatusRaidDebuff:DebuffId(zoneid, 179202, 71, 5, 5) --EYEOFANZU
 GridStatusRaidDebuff:DebuffId(zoneid, 181956, 72, 5, 5) --PHANTASMALWINDS
 GridStatusRaidDebuff:DebuffId(zoneid, 182323, 73, 5, 5) --PHANTASMALWOUNDS
-GridStatusRaidDebuff:DebuffId(zoneid, 182173, 74, 5, 5) --FEL CHAKRAM
+GridStatusRaidDebuff:DebuffId(zoneid, 182173, 74, 5, 5) --FELCHAKRAM
 GridStatusRaidDebuff:DebuffId(zoneid, 181753, 75, 5, 5) --FELBOMB
 GridStatusRaidDebuff:DebuffId(zoneid, 179218, 76, 5, 5) --PHANTASMALOBLITERATION
 
