@@ -88,11 +88,11 @@ GridStatusRaidDebuff:DebuffId(zoneid, 181597, 132, 6, 6) --Mannoroth's Gaze
 
 --Archimonde
 GridStatusRaidDebuff:BossNameId(zoneid, 130, "Archimonde")
-GridStatusRaidDebuff:DebuffId(zoneid, 185590, 131, 6, 6) --Desecrate
-GridStatusRaidDebuff:DebuffId(zoneid, 183864, 132, 6, 6) --Shadow Blast
-GridStatusRaidDebuff:DebuffId(zoneid, 183828, 133, 6, 6) --Death Brand
-GridStatusRaidDebuff:DebuffId(zoneid, 184931, 134, 6, 6) --Shackled Torment
-GridStatusRaidDebuff:DebuffId(zoneid, 182879, 135, 6, 6) --Doomfire Fixate
-GridStatusRaidDebuff:DebuffId(zoneid, 182878, 136, 6, 6) --Doomfire
+GridStatusRaidDebuff:DebuffId(zoneid, 185590, 131, 6, 6) --DESECRATE
+GridStatusRaidDebuff:DebuffId(zoneid, 183864, 132, 6, 6) --SHADOWBLAST
+GridStatusRaidDebuff:DebuffId(zoneid, 183828, 133, 6, 6) --DEATHBRAND
+GridStatusRaidDebuff:DebuffId(zoneid, 184931, 134, 6, 6) --SHACKLEDTORRMENT
+GridStatusRaidDebuff:DebuffId(zoneid, 182879, 135, 6, 6) --DOOMFIREFIXATE
+GridStatusRaidDebuff:DebuffId(zoneid, 182878, 136, 6, 6) --DOOMFIRE
 
 
