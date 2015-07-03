@@ -14,6 +14,7 @@ end
 --Hellfire Assault
 GridStatusRaidDebuff:BossNameId(zoneid, 10, "Hellfire Assault")
 --GridStatusRaidDebuff:DebuffId(zoneid, 156096, 11, 4, 4) --MARKEDFORDEATH
+GridStatusRaidDebuff:DebuffId(zoneid, 184243, 11, 4, 4)--SLAM
 
 
 --Iron Reaver
