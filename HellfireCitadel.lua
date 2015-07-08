@@ -140,64 +140,65 @@ GridStatusRaidDebuff:DebuffId(zoneid, 184355, 56, 4, 4, true, true) -- Bloodboil
 
 --Kilrogg Deadeye
 GridStatusRaidDebuff:BossNameId(zoneid, 60, "Kilrogg Deadeye")
-GridStatusRaidDebuff:DebuffId(zoneid, 180372, 61, 6, 6) --HEARTSEAKER
-GridStatusRaidDebuff:DebuffId(zoneid, 182159, 62, 6, 6) --FELCORRUPTION
+GridStatusRaidDebuff:DebuffId(zoneid, 180372, 61, 6, 6) --Heart Seaker
+GridStatusRaidDebuff:DebuffId(zoneid, 182159, 62, 6, 6) --Fel Corruption
 
 
 --Gorefiend
 GridStatusRaidDebuff:BossNameId(zoneid, 70, "Gorefiend")
-GridStatusRaidDebuff:DebuffId(zoneid, 179864, 71, 6, 6) --SHADOWOFDEATH
-GridStatusRaidDebuff:DebuffId(zoneid, 179978, 72, 6, 6) --TOUCHOFDOOM
-GridStatusRaidDebuff:DebuffId(zoneid, 179909, 73, 6, 6) --SHAREDFATE
+GridStatusRaidDebuff:DebuffId(zoneid, 179864, 71, 6, 6) --Shadow Of Death
+GridStatusRaidDebuff:DebuffId(zoneid, 179978, 72, 6, 6) --Touch Of Doom
+GridStatusRaidDebuff:DebuffId(zoneid, 179909, 73, 6, 6) --Shared Fate
 
 
 --Shadow-Lord Iskar
 GridStatusRaidDebuff:BossNameId(zoneid, 80, "Shadow-Lord Iskar")
-GridStatusRaidDebuff:DebuffId(zoneid, 179202, 81, 5, 5) --EYEOFANZU
-GridStatusRaidDebuff:DebuffId(zoneid, 181956, 82, 5, 5) --PHANTASMALWINDS
-GridStatusRaidDebuff:DebuffId(zoneid, 182323, 83, 5, 5) --PHANTASMALWOUNDS
-GridStatusRaidDebuff:DebuffId(zoneid, 182173, 84, 5, 5) --FELCHAKRAM
-GridStatusRaidDebuff:DebuffId(zoneid, 181753, 85, 5, 5) --FELBOMB
-GridStatusRaidDebuff:DebuffId(zoneid, 179218, 86, 5, 5) --PHANTASMALOBLITERATION
+GridStatusRaidDebuff:DebuffId(zoneid, 179202, 81, 5, 5) --Eye Of Anzu
+GridStatusRaidDebuff:DebuffId(zoneid, 181956, 82, 5, 5) --Phantasmal Winds
+GridStatusRaidDebuff:DebuffId(zoneid, 182323, 83, 5, 5) --Phantasmal Wounds
+GridStatusRaidDebuff:DebuffId(zoneid, 182173, 84, 5, 5) --Fel Chakram
+GridStatusRaidDebuff:DebuffId(zoneid, 181753, 85, 5, 5) --Fel Bomb
+GridStatusRaidDebuff:DebuffId(zoneid, 179218, 86, 5, 5) --Phantasmal Obliteration
 
 
 --Socrethar the Eternal
 GridStatusRaidDebuff:BossNameId(zoneid, 90, "Socrethar the Eternal")
-GridStatusRaidDebuff:DebuffId(zoneid, 182635, 91, 5, 5) --REVERBERATINGBLOW
+GridStatusRaidDebuff:DebuffId(zoneid, 182635, 91, 5, 5) --Reverberating Blow
+GridStatusRaidDebuff:DebuffId(zoneid, 184124, 92, 5, 5) --Gift Of The Man'ari
 
 
 --Fel Lord Zakuun
 GridStatusRaidDebuff:BossNameId(zoneid, 100, "Fel Lord Zakuun")
-GridStatusRaidDebuff:DebuffId(zoneid, 181508, 101, 6, 6) --SEEDOFDESTRUCTION
-GridStatusRaidDebuff:DebuffId(zoneid, 179620, 102, 6, 6) --FELCRYSTAL
-GridStatusRaidDebuff:DebuffId(zoneid, 179711, 103, 6, 6) --BEFOULED
-GridStatusRaidDebuff:DebuffId(zoneid, 189030, 104, 6, 6) --BEFOULEDRED
-GridStatusRaidDebuff:DebuffId(zoneid, 189031, 105, 6, 6) --BEFOULEDORANGE
-GridStatusRaidDebuff:DebuffId(zoneid, 189032, 106, 6, 6) --BEFOULEDGREEN
+GridStatusRaidDebuff:DebuffId(zoneid, 181508, 101, 6, 6) --Seed Of Destruction
+GridStatusRaidDebuff:DebuffId(zoneid, 179620, 102, 6, 6) --Fel Crystal
+GridStatusRaidDebuff:DebuffId(zoneid, 179711, 103, 6, 6) --Befouled
+GridStatusRaidDebuff:DebuffId(zoneid, 189030, 104, 6, 6) --Befouled Red
+GridStatusRaidDebuff:DebuffId(zoneid, 189031, 105, 6, 6) --Befouled Orange
+GridStatusRaidDebuff:DebuffId(zoneid, 189032, 106, 6, 6) --Befouled Green
 
 --Xhul'horac
 GridStatusRaidDebuff:BossNameId(zoneid, 110, "Xhul'horac")
-GridStatusRaidDebuff:DebuffId(zoneid, 186490, 111, 6, 6) --CHAINSOFFEL
-GridStatusRaidDebuff:DebuffId(zoneid, 186546, 112, 6, 6) --BLACKHOLE
+GridStatusRaidDebuff:DebuffId(zoneid, 186490, 111, 6, 6) --Chains Of Fel
+GridStatusRaidDebuff:DebuffId(zoneid, 186546, 112, 6, 6) --Black Hole
 
 --Tyrant Velhari
 GridStatusRaidDebuff:BossNameId(zoneid, 120, "Tyrant Velhari")
-GridStatusRaidDebuff:DebuffId(zoneid, 180166, 121, 6, 6) --TOUCHOFHARM
-GridStatusRaidDebuff:DebuffId(zoneid, 180128, 122, 6, 6) --EDICTOFCONDEMNATION
-GridStatusRaidDebuff:DebuffId(zoneid, 180526, 123, 6, 6) --FONTOFCORRUPTION
+GridStatusRaidDebuff:DebuffId(zoneid, 180166, 121, 6, 6) --Touch Of Harm
+GridStatusRaidDebuff:DebuffId(zoneid, 180128, 122, 6, 6) --Edict Of Condemnation
+GridStatusRaidDebuff:DebuffId(zoneid, 180526, 123, 6, 6) --Font Of Corruption
 
 --Mannoroth
 GridStatusRaidDebuff:BossNameId(zoneid, 130, "Mannoroth")
-GridStatusRaidDebuff:DebuffId(zoneid, 181099, 131, 6, 6) --MARKOFDOOM
-GridStatusRaidDebuff:DebuffId(zoneid, 181597, 132, 6, 6) --MANNOROTH'SGAZE
+GridStatusRaidDebuff:DebuffId(zoneid, 181099, 131, 6, 6) --Mark Of Doom
+GridStatusRaidDebuff:DebuffId(zoneid, 181597, 132, 6, 6) --Mannoroth's Gaze
 
 --Archimonde
 GridStatusRaidDebuff:BossNameId(zoneid, 140, "Archimonde")
-GridStatusRaidDebuff:DebuffId(zoneid, 185590, 141, 6, 6) --DESECRATE
-GridStatusRaidDebuff:DebuffId(zoneid, 183864, 142, 6, 6) --SHADOWBLAST
-GridStatusRaidDebuff:DebuffId(zoneid, 183828, 143, 6, 6) --DEATHBRAND
-GridStatusRaidDebuff:DebuffId(zoneid, 184931, 144, 6, 6) --SHACKLEDTORRMENT
-GridStatusRaidDebuff:DebuffId(zoneid, 182879, 145, 6, 6) --DOOMFIREFIXATE
-GridStatusRaidDebuff:DebuffId(zoneid, 182878, 146, 6, 6) --DOOMFIRE
+GridStatusRaidDebuff:DebuffId(zoneid, 185590, 141, 6, 6) --Desecrate
+GridStatusRaidDebuff:DebuffId(zoneid, 183864, 142, 6, 6) --Shadow Blast
+GridStatusRaidDebuff:DebuffId(zoneid, 183828, 143, 6, 6) --Death Brand
+GridStatusRaidDebuff:DebuffId(zoneid, 184931, 144, 6, 6) --Shackled Torrment
+GridStatusRaidDebuff:DebuffId(zoneid, 182879, 145, 6, 6) --Doomfire Fixate
+GridStatusRaidDebuff:DebuffId(zoneid, 182878, 146, 6, 6) --Doomfire
 
 
