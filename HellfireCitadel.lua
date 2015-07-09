@@ -27,7 +27,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 187459, 1, 4, 4, true) -- Fel Shock (dot, 
 -- Gorebound Corruptor - same abilities as Grand Corruptor U'rogg
 -- Siegeworks Technician
 -- Eredar Faithbreaker
-GridStatusRaidDebuff:DebuffId(zoneid, 184586, 1, 5, 5) -- Touch of Mortality
+GridStatusRaidDebuff:DebuffId(zoneid, 184587, 1, 5, 5, true) -- Touch of Mortality
 
 -- Grand Corruptor U'rogg (mini-boss)
 GridStatusRaidDebuff:DebuffId(zoneid, 190735, 1, 6, 6, true) -- Corruption Siphon
