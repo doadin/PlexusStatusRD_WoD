@@ -49,8 +49,19 @@ GridStatusRaidDebuff:DebuffId(zoneid, 188189, 1, 4, 4, true) -- Fel Poison (dot,
 GridStatusRaidDebuff:DebuffId(zoneid, 187122, 1, 5, 5, true) -- Primal Energies (AoE dot)
 GridStatusRaidDebuff:DebuffId(zoneid, 188482, 1, 3, 3, true) -- Fel Infection (dot)
 GridStatusRaidDebuff:DebuffId(zoneid, 188484, 1, 1, 1, true) -- Fel Sickness (prevents passing Fel Infection)
+
 -- Shadow Infuser
-GridStatusRaidDebuff:DebuffId(zoneid, 188541, 1, 6, 6, true) -- Insanity (mind control)
+
+-- Insanity is also the name of the debuff from hunter pet's Ancient Hysteria
+-- This causes that Insanity to show up with GridSTatusRaidDebuff prior to r33 (6.22)
+if GridStatusRD_WoD.rd_version < 622 then
+   -- Disable the trash Insanity debuff
+   GridStatusRaidDebuff:DebuffId(zoneid, 188541, 1, 1, 1, true, false, 0, true) -- Insanity (disabled)
+else 
+   -- GridStatusRaidDebuff versions over 6.22 can handle displaying this debuff
+   GridStatusRaidDebuff:DebuffId(zoneid, 188541, 1, 6, 6, true) -- Insanity (mind control)
+end
+
 GridStatusRaidDebuff:DebuffId(zoneid, 187099, 1, 5, 5) -- Residual Shadows (standing in puddle)
 -- Shadow Infuser also does Fel Infection/Sickness
 -- Fiery Enkindler
