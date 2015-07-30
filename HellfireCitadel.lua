@@ -85,7 +85,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 188104, 1, 6, 6, true) -- Explosive Burst 
 -- Fel-Starved Trainee
 
 -- Graggra (mini-boss, skipable)
-GridStatusRaidDebuff:DebuffId(zoneid, 188476, 1, 4, 4, true) -- Bad Breath (tank swap debuff)
+GridStatusRaidDebuff:DebuffId(zoneid, 188476, 1, 4, 4, true, true) -- Bad Breath (tank swap debuff, stacks)
 GridStatusRaidDebuff:DebuffId(zoneid, 188448, 1, 2, 2, true) -- Blazing Fel Touch (all players explode)
 GridStatusRaidDebuff:DebuffId(zoneid, 188510, 1, 5, 5, true) -- Graggra Smash (stun, AoE on player)
 
@@ -136,6 +136,53 @@ GridStatusRaidDebuff:DebuffId(zoneid, 190044, 1, 6, 6, true) -- Felblood Corrupt
 GridStatusRaidDebuff:DebuffId(zoneid, 190012, 1, 1, 1, true) -- Demonic Leap (stun)
 -- Voidscribe Aathalos
 
+-- Halls of the Sargerei trash (Socrethar)
+-- Sargerei Enforcer
+GridStatusRaidDebuff:DebuffId(zoneid, 189556, 1, 4, 4, true, true) -- Sunder Armor (tank debuff stack)
+-- Sargerei Soul Cleaver
+GridStatusRaidDebuff:DebuffId(zoneid, 189551, 1, 5, 5, true) -- Devouring Spirit (dot, magic dispellable)
+-- Sargerei Adjutant
+GridStatusRaidDebuff:DebuffId(zoneid, 189554, 1, 6, 6, true, true) -- Consuming Pain (dot, stacks, magic dispellable)
+-- Sargerei Bannerman
+GridStatusRaidDebuff:DebuffId(zoneid, 189539, 1, 1, 1, true) -- Shockwave (stun)
+-- Construct Peacekeeper
+GridStatusRaidDebuff:DebuffId(zoneid, 189596, 1, 3, 3, true) -- Protocol: Crowd Control (short disorient, dispellable)
+-- Korvos
+GridStatusRaidDebuff:DebuffId(zoneid, 189564, 1, 5, 5, true) -- Torpor (sleep, dispellable, spreads to nearby players on dispel)
+-- Carrion Swarm (cast on players by Korvos)
+GridStatusRaidDebuff:DebuffId(zoneid, 189560, 1, 2, 2, true) -- Carrion Swarm (dot)
+-- Binder Eloah
+GridStatusRaidDebuff:DebuffId(zoneid, 189533, 1, 4, 4, true) -- Sever Soul (tank swap debuff)
+-- Binder Hallaani
+GridStatusRaidDebuff:DebuffId(zoneid, 189532, 1, 5, 5, true) -- Soulsear (AoE dot)
+-- Mystic Aaran
+GridStatusRaidDebuff:DebuffId(zoneid, 189531, 1, 2, 2, false, true) -- Soulbane (dot, stacks, magic dispellable)
+-- Mystic Velrrun
+
+-- Amphitheater of the Eternal (Tyrant Velhari)
+-- Portal Guardian
+GridStatusRaidDebuff:DebuffId(zoneid, 184734, 1, 5, 5, true) -- Hellfire Slash (cone dot, magic dispellable
+-- Somber Guardian
+-- Darkcaster Adept
+-- Grim Collaborator
+GridStatusRaidDebuff:DebuffId(zoneid, 181962, 1, 1, 1, true) -- Corrupting Slash (buff/debuff, dispellable)
+-- Umbral Supplicant
+-- Shadowheart Fiend
+GridStatusRaidDebuff:DebuffId(zoneid, 184725, 1, 4, 4, true) -- Shadowflame Blast (healing absorb, dispellable)
+-- Slavering Hound
+GridStatusRaidDebuff:DebuffId(zoneid, 184730, 1, 3, 3, true) -- Terrifying Howl (short fear, dispellable)
+-- Lord Aram'el (mini-boss)
+GridStatusRaidDebuff:DebuffId(zoneid, 184721, 1, 1, 1, true, true) -- Shadow Bolt Volley (debuff, stacks, not dispellable)
+-- Eredar Faithbreaker
+GridStatusRaidDebuff:DebuffId(zoneid, 184621, 1, 1, 1, true) -- Hellfire Blast (debuff, not dispellable)
+-- Vindicator Bramu
+-- Seal of Decay is also used by Tyrant Velhari
+-- GridStatusRaidDebuff:DebuffId(zoneid, 184986, 1, 2, 2, true, true) -- Seal of Decay (tank debuff stack, healing reduction)
+-- Protector Bajunt
+-- Seal of Decay is also used by Tyrant Velhari
+-- Adjunct Kuroh
+-- Seal of Decay is also used by Tyrant Velhari
+
 -- Bosses
 
 -- Hellfire Assault
@@ -153,15 +200,18 @@ GridStatusRaidDebuff:DebuffId(zoneid, 185157, 15, 6, 6) -- Burn (cone dot)
 -- Felfire Munitions
 GridStatusRaidDebuff:DebuffId(zoneid, 180079, 16, 6, 6) -- Felfire Munitions (carrying, dot)
 
+
 -- Iron Reaver
 GridStatusRaidDebuff:BossNameId(zoneid, 20, "Iron Reaver")
 GridStatusRaidDebuff:DebuffId(zoneid, 182280, 21, 6, 6) -- Artillery (targetted)
-GridStatusRaidDebuff:DebuffId(zoneid, 185242, 22, 2, 2, true) -- Blitz (carry, silence, not dispellable)
+GridStatusRaidDebuff:DebuffId(zoneid, 185242, 22, 5, 5, true, true) -- Blitz (carry, silence, dispellable, stacks)
 GridStatusRaidDebuff:DebuffId(zoneid, 182003, 23, 1, 1) -- Fuel Streak (movement)
-GridStatusRaidDebuff:DebuffId(zoneid, 182074, 24, 4, 4, true, true) -- Immolation (stacking dot)
-GridStatusRaidDebuff:DebuffId(zoneid, 182001, 25, 5, 5, true, true) -- Unstable Orb (stacking dot)
+GridStatusRaidDebuff:DebuffId(zoneid, 182074, 24, 3, 3, true, true) -- Immolation (stacking dot)
+GridStatusRaidDebuff:DebuffId(zoneid, 182001, 25, 4, 4, true, true) -- Unstable Orb (stacking dot)
+-- Volatile Firebomb
+GridStatusRaidDebuff:DebuffId(zoneid, 185978, 26, 2, 2, true, true) -- Firebomb Vulnerability (stacking debuff)
 
---Kormrok
+-- Kormrok
 GridStatusRaidDebuff:BossNameId(zoneid, 30, "Kormrok")
 GridStatusRaidDebuff:DebuffId(zoneid, 181306, 31, 6, 6, true) -- Explosive Burst (tank stun, explosion)
 GridStatusRaidDebuff:DebuffId(zoneid, 181321, 32, 1, 1, true) -- Fel Touch (debuff, not dispellable)
@@ -182,7 +232,8 @@ GridStatusRaidDebuff:DebuffId(zoneid, 186560, 39, 6, 6) -- Foul Pool (standing i
 -- Foul Globule
 GridStatusRaidDebuff:DebuffId(zoneid, 185521, 40, 2, 2, true) -- Foul Globule (dot)
 
---Hellfire High Council
+
+-- Hellfire High Council
 GridStatusRaidDebuff:BossNameId(zoneid, 50, "Hellfire High Council")
 -- Dia Darkwhisper
 -- Mark of the Necromancer changes colors and increases damage over time
@@ -198,7 +249,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 184357, 55, 1, 1, false, true) -- Tainted 
 GridStatusRaidDebuff:DebuffId(zoneid, 184355, 56, 4, 4, true, true) -- Bloodboil (dot, stacks)
 
 
---Kilrogg Deadeye
+-- Kilrogg Deadeye
 GridStatusRaidDebuff:BossNameId(zoneid, 60, "Kilrogg Deadeye")
 GridStatusRaidDebuff:DebuffId(zoneid, 188929, 61, 6, 6, true) -- Heart Seeker (targetted)
 GridStatusRaidDebuff:DebuffId(zoneid, 188852, 62, 5, 5) -- Blood Splatter (standing in Heart Seeker pool)
@@ -223,7 +274,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 180033, 71, 3, 3, true) -- Cinder Breath (
 GridStatusRaidDebuff:DebuffId(zoneid, 184067, 72, 5, 5) -- Fel Puddle (standing in)
 
 
---Gorefiend
+-- Gorefiend
 GridStatusRaidDebuff:BossNameId(zoneid, 80, "Gorefiend")
 GridStatusRaidDebuff:DebuffId(zoneid, 179864, 81, 5, 5, true) -- Shadow of Death (sent to stomach after 5 sec)
 GridStatusRaidDebuff:DebuffId(zoneid, 181295, 82, 3, 3, true) -- Digest (dot, in stomach)
@@ -232,7 +283,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 179978, 84, 6, 6, true) -- Touch of Doom  
 GridStatusRaidDebuff:DebuffId(zoneid, 179995, 86, 5, 5) -- Doom Well (standing in puddle)
 GridStatusRaidDebuff:DebuffId(zoneid, 179909, 85, 6, 6, true) -- Shared Fate (dot) (179908 non-rooted, 179909 rooted)
 -- Enraged Spirit (tank add in stomach)
-GridStatusRaidDebuff:DebuffId(zoneid, 182601, 86, 5, 5) -- Fel Fury (standing in puddle)
+GridStatusRaidDebuff:DebuffId(zoneid, 182601, 86, 5, 5, true, true) -- Fel Fury (standing in puddle, stacks)
 -- Shadowy Construct (dps add in stomach)
 -- Tortured Essence (healer add in stomach)
 -- Gorebound Spirit (Enraged Spirit that made it to center of stomach and spawn outside)
@@ -244,7 +295,8 @@ GridStatusRaidDebuff:DebuffId(zoneid, 180093, 89, 1, 1, true) -- Spirit Volley (
 -- Pool of Souls (surrounding boss)
 GridStatusRaidDebuff:DebuffId(zoneid, 186770, 90, 5, 5) -- Pool of Souls (standing in pool)
 
---Shadow-Lord Iskar
+
+-- Shadow-Lord Iskar
 GridStatusRaidDebuff:BossNameId(zoneid, 100, "Shadow-Lord Iskar")
 -- If second debuff is added, might be nice to mark Eye of Anzu for this fight
 GridStatusRaidDebuff:DebuffId(zoneid, 179202, 101, 5, 5) -- Eye Of Anzu (holding)
@@ -266,67 +318,95 @@ GridStatusRaidDebuff:DebuffId(zoneid, 187344, 112, 1, 1, true, true) -- Phantasm
 -- Mythic
 GridStatusRaidDebuff:DebuffId(zoneid, 185510, 113, 2, 2, true) -- Dark Bindings (chained with another player)
 
---Socrethar the Eternal
+
+-- Socrethar the Eternal
 GridStatusRaidDebuff:BossNameId(zoneid, 120, "Socrethar the Eternal")
-GridStatusRaidDebuff:DebuffId(zoneid, 182635, 121, 5, 5) --Reverberating Blow
-GridStatusRaidDebuff:DebuffId(zoneid, 184124, 122, 5, 5) --Gift Of The Man'ari
+-- GridStatusRaidDebuff:DebuffId(zoneid, 182635, 121, 5, 5) --Reverberating Blow not a debuff
+-- Soulbound Construct
+GridStatusRaidDebuff:DebuffId(zoneid, 182038, 122, 3, 3, true) -- Shattered Defenses (cone debuff, stacks)
+GridStatusRaidDebuff:DebuffId(zoneid, 189627, 123, 5, 5, true) -- Volatile Fel Orb (targetted for explosive orb)
+GridStatusRaidDebuff:DebuffId(zoneid, 189540, 124, 2, 2, true) -- Overwhelming Power (dot)
+GridStatusRaidDebuff:DebuffId(zoneid, 182218, 125, 5, 5) -- Felblaze Residue (standing in fire)
+GridStatusRaidDebuff:DebuffId(zoneid, 180415, 126, 1, 1, true) -- Fel Prison (stun, 99% reduction damage taken)
+-- Haunting Soul
+GridStatusRaidDebuff:DebuffId(zoneid, 182769, 127, 6, 6) -- Ghastly Fixation (targetted)
+GridStatusRaidDebuff:DebuffId(zoneid, 182900, 128, 4, 4, true) -- Virulent Haunt (dot, horrify)
+-- Sargerei Dominator
+GridStatusRaidDebuff:DebuffId(zoneid, 184124, 129, 3, 3, true) -- Gift Of The Man'ari (dot)
+-- Sargerei Shadowcaller
+GridStatusRaidDebuff:DebuffId(zoneid, 184239, 130, 4, 4, true, true) -- Shadow Word: Agony (dot, stacks, magic dispellable)
+-- Enrage (Soulbound Construct)
+GridStatusRaidDebuff:DebuffId(zoneid, 190922, 131, 2, 2, true, true) -- Unbounded Power (dot, stacks)
 
-
---Fel Lord Zakuun
-GridStatusRaidDebuff:BossNameId(zoneid, 130, "Fel Lord Zakuun")
-GridStatusRaidDebuff:DebuffId(zoneid, 181508, 131, 6, 6, true) --Seed Of Destruction (player emits waves)
-GridStatusRaidDebuff:DebuffId(zoneid, 179428, 132, 5, 5) -- Rumbling Fissure (standing in fire)
-GridStatusRaidDebuff:DebuffId(zoneid, 182008, 133, 2, 2, true) -- Latent Energy (debuff, explodes if hit)
-GridStatusRaidDebuff:DebuffId(zoneid, 189260, 134, 3, 3, true) -- Cloven Soul (tank debuff)
-GridStatusRaidDebuff:DebuffId(zoneid, 179407, 135, 1, 1, true) -- Disembodied (Shadow Realm)
+-- Fel Lord Zakuun
+GridStatusRaidDebuff:BossNameId(zoneid, 140, "Fel Lord Zakuun")
+GridStatusRaidDebuff:DebuffId(zoneid, 181508, 141, 6, 6, true) --Seed Of Destruction (player emits waves)
+GridStatusRaidDebuff:DebuffId(zoneid, 179428, 142, 5, 5) -- Rumbling Fissure (standing in fire)
+GridStatusRaidDebuff:DebuffId(zoneid, 182008, 143, 2, 2, true) -- Latent Energy (debuff, explodes if hit)
+GridStatusRaidDebuff:DebuffId(zoneid, 189260, 144, 3, 3, true) -- Cloven Soul (tank debuff)
+GridStatusRaidDebuff:DebuffId(zoneid, 179407, 145, 1, 1, true) -- Disembodied (Shadow Realm)
 -- Befouled starts red (189030) switches to orange (189031) then to green (189032)
 -- GridStatusRaidDebuff:DebuffId(zoneid, 179711, 136, 6, 6) --Befouled -- not the debuff
-GridStatusRaidDebuff:DebuffId(zoneid, 189030, 136, 6, 6) -- Befouled (healing absorb)
+GridStatusRaidDebuff:DebuffId(zoneid, 189030, 146, 6, 6) -- Befouled (healing absorb)
 -- GridStatusRaidDebuff:DebuffId(zoneid, 189031, 136, 6, 6) --Befouled Orange
 -- GridStatusRaidDebuff:DebuffId(zoneid, 189032, 136, 6, 6) --Befouled Green
 -- Fel Crystal
-GridStatusRaidDebuff:DebuffId(zoneid, 181653, 137, 5, 5) -- Fel Crystals (standing near)
+GridStatusRaidDebuff:DebuffId(zoneid, 181653, 147, 5, 5) -- Fel Crystals (standing near)
 -- Mythic
-GridStatusRaidDebuff:DebuffId(zoneid, 188998, 138, 2, 2, true) -- Exhausted Soul (debuff, rumbling fissure)
+GridStatusRaidDebuff:DebuffId(zoneid, 188998, 148, 2, 2, true) -- Exhausted Soul (debuff, rumbling fissure)
 
---Xhul'horac
-GridStatusRaidDebuff:BossNameId(zoneid, 140, "Xhul'horac")
-GridStatusRaidDebuff:DebuffId(zoneid, 186134, 141, 2, 2, true) -- Feltouched (debuff)
-GridStatusRaidDebuff:DebuffId(zoneid, 186135, 142, 2, 2, true) -- Voidtouched (debuff)
-GridStatusRaidDebuff:DebuffId(zoneid, 186407, 143, 7, 7, true) -- Fel Surge (dot, drops fire)
-GridStatusRaidDebuff:DebuffId(zoneid, 186333, 144, 7, 7, true) -- Void Surge (dot, drops fire)
+
+-- Xhul'horac
+GridStatusRaidDebuff:BossNameId(zoneid, 150, "Xhul'horac")
+GridStatusRaidDebuff:DebuffId(zoneid, 186134, 151, 2, 2, true) -- Feltouched (debuff)
+GridStatusRaidDebuff:DebuffId(zoneid, 186135, 152, 2, 2, true) -- Voidtouched (debuff)
+GridStatusRaidDebuff:DebuffId(zoneid, 186407, 153, 7, 7, true) -- Fel Surge (dot, drops fire)
+GridStatusRaidDebuff:DebuffId(zoneid, 186333, 154, 7, 7, true) -- Void Surge (dot, drops fire)
 -- Vanguard Akkelion
-GridStatusRaidDebuff:DebuffId(zoneid, 186500, 145, 6, 6, false, true) --Chains Of Fel
-GridStatusRaidDebuff:DebuffId(zoneid, 186448, 146, 4, 4, true, true) -- Felblaze Flurry (tank debuff stack)
+GridStatusRaidDebuff:DebuffId(zoneid, 186500, 155, 6, 6, false, true) --Chains Of Fel
+GridStatusRaidDebuff:DebuffId(zoneid, 186448, 156, 4, 4, true, true) -- Felblaze Flurry (tank debuff stack)
 -- Wild Pyromaniac
-GridStatusRaidDebuff:DebuffId(zoneid, 188208, 147, 3, 3, true, true) -- Ablaze (stacking dot)
+GridStatusRaidDebuff:DebuffId(zoneid, 188208, 157, 3, 3, true, true) -- Ablaze (stacking dot)
 -- Omnus
-GridStatusRaidDebuff:DebuffId(zoneid, 186547, 148, 5, 5) -- Black Hole (sucking in, dot)
-GridStatusRaidDebuff:DebuffId(zoneid, 186785, 149, 4, 4, true, true) -- Withering Gaze (tank debuff stack)
+GridStatusRaidDebuff:DebuffId(zoneid, 186547, 158, 5, 5) -- Black Hole (sucking in, dot)
+GridStatusRaidDebuff:DebuffId(zoneid, 186785, 159, 4, 4, true, true) -- Withering Gaze (tank debuff stack)
 -- Unstable Voidfiend
 -- Chaotic Felblaze
-GridStatusRaidDebuff:DebuffId(zoneid, 186073, 150, 3, 3, true, true) -- Felsinged (stacking dot, standing in fire)
+GridStatusRaidDebuff:DebuffId(zoneid, 186073, 160, 3, 3, true, true) -- Felsinged (stacking dot, standing in fire)
 -- Creeping Void
-GridStatusRaidDebuff:DebuffId(zoneid, 186063, 151, 3, 3, true, true) -- Wasting Void (stacking dot, standing in fire)
+GridStatusRaidDebuff:DebuffId(zoneid, 186063, 161, 3, 3, true, true) -- Wasting Void (stacking dot, standing in fire)
 
---Tyrant Velhari
-GridStatusRaidDebuff:BossNameId(zoneid, 160, "Tyrant Velhari")
-GridStatusRaidDebuff:DebuffId(zoneid, 180166, 161, 6, 6) --Touch Of Harm
-GridStatusRaidDebuff:DebuffId(zoneid, 180128, 162, 6, 6) --Edict Of Condemnation
-GridStatusRaidDebuff:DebuffId(zoneid, 180526, 163, 6, 6) --Font Of Corruption
+
+-- Tyrant Velhari
+GridStatusRaidDebuff:BossNameId(zoneid, 170, "Tyrant Velhari")
+GridStatusRaidDebuff:DebuffId(zoneid, 180166, 171, 5, 5) -- Touch Of Harm (healing absorb, dispellable, jumps on dispel)
+GridStatusRaidDebuff:DebuffId(zoneid, 180128, 172, 6, 6, true) -- Edict Of Condemnation (targetted, split damage)
+GridStatusRaidDebuff:DebuffId(zoneid, 180526, 173, 6, 6, true) -- Font of Corruption (targetted by Tainted Shadows)
+GridStatusRaidDebuff:DebuffId(zoneid, 180000, 174, 4, 4, true, true) -- Seal of Decay (tank debuff stack, healing reduction)
+GridStatusRaidDebuff:DebuffId(zoneid, 181683, 175, 1, 1) -- Aura of Oppression (phase 1 movement causes damage)
+GridStatusRaidDebuff:DebuffId(zoneid, 179987, 176, 1, 1) -- Aura of Contempt (phase 2 healing debuff)
+GridStatusRaidDebuff:DebuffId(zoneid, 179993, 177, 1, 1) -- Aura of Malice (phase 3 buff/debuff)
+-- Ancient Enforcer
+-- Ancient Harbinger
+-- Despoiled Ground
+GridStatusRaidDebuff:DebuffId(zoneid, 180604, 178, 3, 3) -- Despoiled Ground (standing in void zone)
+-- Ancient Sovereign
+
 
 --Mannoroth
-GridStatusRaidDebuff:BossNameId(zoneid, 170, "Mannoroth")
-GridStatusRaidDebuff:DebuffId(zoneid, 181099, 171, 6, 6) --Mark Of Doom
-GridStatusRaidDebuff:DebuffId(zoneid, 181597, 172, 6, 6) --Mannoroth's Gaze
+GridStatusRaidDebuff:BossNameId(zoneid, 180, "Mannoroth")
+GridStatusRaidDebuff:DebuffId(zoneid, 181099, 181, 6, 6) --Mark Of Doom
+GridStatusRaidDebuff:DebuffId(zoneid, 181597, 182, 6, 6) --Mannoroth's Gaze
+
 
 --Archimonde
-GridStatusRaidDebuff:BossNameId(zoneid, 180, "Archimonde")
-GridStatusRaidDebuff:DebuffId(zoneid, 185590, 181, 6, 6) --Desecrate
-GridStatusRaidDebuff:DebuffId(zoneid, 183864, 182, 6, 6) --Shadow Blast
-GridStatusRaidDebuff:DebuffId(zoneid, 183828, 183, 6, 6) --Death Brand
-GridStatusRaidDebuff:DebuffId(zoneid, 184931, 184, 6, 6) --Shackled Torrment
-GridStatusRaidDebuff:DebuffId(zoneid, 182879, 185, 6, 6) --Doomfire Fixate
-GridStatusRaidDebuff:DebuffId(zoneid, 182878, 186, 6, 6) --Doomfire
-
+GridStatusRaidDebuff:BossNameId(zoneid, 190, "Archimonde")
+GridStatusRaidDebuff:DebuffId(zoneid, 185590, 191, 6, 6) --Desecrate
+GridStatusRaidDebuff:DebuffId(zoneid, 183864, 192, 6, 6) --Shadow Blast
+GridStatusRaidDebuff:DebuffId(zoneid, 183828, 193, 6, 6) --Death Brand
+GridStatusRaidDebuff:DebuffId(zoneid, 184931, 194, 7, 7) --Shackled Torrment
+GridStatusRaidDebuff:DebuffId(zoneid, 182879, 195, 6, 6) --Doomfire Fixate
+GridStatusRaidDebuff:DebuffId(zoneid, 182878, 196, 6, 6) --Doomfire
+GridStatusRaidDebuff:DebuffId(zoneid, 185014, 197, 6, 6, true) -- Focused Chaos (target)
+GridStatusRaidDebuff:DebuffId(zoneid, 186123, 198, 6, 6, true) -- Wrought Chaos (player explodes towards Focused Chaos target)
 
