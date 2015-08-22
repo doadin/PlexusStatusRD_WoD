@@ -262,7 +262,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 160436, 124, 1, 1, true) -- Swirling Vorte
 -- Blackhand
 GridStatusRaidDebuff:BossNameId(zoneid, 130, "Blackhand")
 GridStatusRaidDebuff:DebuffId(zoneid, 156096, 131, 6, 6, true) -- Marked for Death (targetted by Impaling Throw)
-GridStatusRaidDebuff:DebuffId(zoneid, 156743, 132, 4, 4, true) -- Impaled (dot)
+GridStatusRaidDebuff:DebuffId(zoneid, 156743, 132, 4, 4, true, true) -- Impaled (dot)
 GridStatusRaidDebuff:DebuffId(zoneid, 156047, 133, 2, 2, true) -- Slagged (dam increase)
 GridStatusRaidDebuff:DebuffId(zoneid, 156401, 134, 4, 4, true, true) -- Molten Slag (dot, nondispellable)
 GridStatusRaidDebuff:DebuffId(zoneid, 156404, 135, 3, 3, true, true) -- Burned (stacking debuff)

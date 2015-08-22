@@ -183,6 +183,24 @@ GridStatusRaidDebuff:DebuffId(zoneid, 184621, 1, 1, 1, true) -- Hellfire Blast (
 -- Adjunct Kuroh
 -- Seal of Decay is also used by Tyrant Velhari
 
+-- Destructor's Rise trash (Mannoroth)
+
+-- Archimonde trash
+-- Anetheron
+GridStatusRaidDebuff:DebuffId(zoneid, 189470, 1, 3, 3, true) -- Sleep (sleep)
+-- Carrion Swarm is duplicate name
+-- GridStatusRaidDebuff:DebuffId(zoneid, 189464, 1, 2, 2, true) -- Carrion Swarm (healing debuff)
+-- Towering Infernal
+GridStatusRaidDebuff:DebuffId(zoneid, 189488, 1, 1, 1, true) -- Impact (stun)
+-- Kaz'rogal
+GridStatusRaidDebuff:DebuffId(zoneid, 189504, 1, 1, 1, true) -- Warm Stomp (stun)
+GridStatusRaidDebuff:DebuffId(zoneid, 189512, 1, 4, 4, true) -- Mark of Kaz'rogal (debuff, not dispellable, mana drain/AoE)
+-- Azgalor
+GridStatusRaidDebuff:DebuffId(zoneid, 189538, 1, 1, 1, true) -- Doom (debuff, not dispellable, summons mob)
+GridStatusRaidDebuff:DebuffId(zoneid, 189550, 1, 5, 5) -- Rain of Fire (standing in)
+-- Lesser Doomguard
+GridStatusRaidDebuff:DebuffId(zoneid, 189544, 1, 1, 1, true) -- Cripple (debuff, not dispellable)
+
 -- Bosses
 
 -- Hellfire Assault
@@ -323,7 +341,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 185510, 113, 2, 2, true) -- Dark Bindings 
 GridStatusRaidDebuff:BossNameId(zoneid, 120, "Socrethar the Eternal")
 -- GridStatusRaidDebuff:DebuffId(zoneid, 182635, 121, 5, 5) --Reverberating Blow not a debuff
 -- Soulbound Construct
-GridStatusRaidDebuff:DebuffId(zoneid, 182038, 122, 3, 3, true) -- Shattered Defenses (cone debuff, stacks)
+GridStatusRaidDebuff:DebuffId(zoneid, 182038, 122, 3, 3, true, true) -- Shattered Defenses (cone debuff, stacks)
 GridStatusRaidDebuff:DebuffId(zoneid, 189627, 123, 5, 5, true) -- Volatile Fel Orb (targetted for explosive orb)
 GridStatusRaidDebuff:DebuffId(zoneid, 189540, 124, 2, 2, true) -- Overwhelming Power (dot)
 GridStatusRaidDebuff:DebuffId(zoneid, 182218, 125, 5, 5) -- Felblaze Residue (standing in fire)
@@ -393,20 +411,56 @@ GridStatusRaidDebuff:DebuffId(zoneid, 180604, 178, 3, 3) -- Despoiled Ground (st
 -- Ancient Sovereign
 
 
---Mannoroth
+-- Mannoroth
 GridStatusRaidDebuff:BossNameId(zoneid, 180, "Mannoroth")
-GridStatusRaidDebuff:DebuffId(zoneid, 181099, 181, 6, 6) --Mark Of Doom
-GridStatusRaidDebuff:DebuffId(zoneid, 181597, 182, 6, 6) --Mannoroth's Gaze
+-- Phase 1
+-- Fel Iron Summoner
+-- Demon Portal
+GridStatusRaidDebuff:DebuffId(zoneid, 181099, 181, 6, 6) -- Mark Of Doom
+GridStatusRaidDebuff:DebuffId(zoneid, 181275, 182, 3, 3, true) -- Curse of the Legion (curse, dispellable, summons demon lord)
+-- Doom Lord
+GridStatusRaidDebuff:DebuffId(zoneid, 181119, 183, 4, 4, true, true) -- Doom Spike (tank debuff stack)
+-- Fel Imp
+-- Dread Infernal
+-- Blood of Mannoroth
+GridStatusRaidDebuff:DebuffId(zoneid, 182171, 184, 2, 2) -- Blood of Mannoroth (standing in pool)
+-- Phase 2
+GridStatusRaidDebuff:DebuffId(zoneid, 181359, 185, 5, 5) -- Massive Blast (tank debuff)
+GridStatusRaidDebuff:DebuffId(zoneid, 184252, 186, 3, 3) -- Puncture Wound (tank debuff if no active mitigation)
+GridStatusRaidDebuff:DebuffId(zoneid, 181597, 187, 4, 4) -- Mannoroth's Gaze (fear, split AoE)
+-- Phase 3
+GridStatusRaidDebuff:DebuffId(zoneid, 181841, 188, 6, 6) -- Shadowforce (dot, pushback)
+GridStatusRaidDebuff:DebuffId(zoneid, 182113, 189, 1, 1, true, false, 0, true) -- Lingering Forces (movement buff)
+-- Phase 4
+GridStatusRaidDebuff:DebuffId(zoneid, 182088, 190, 6, 6) -- Empowered Shadowforce (dot, pushback)
+GridStatusRaidDebuff:DebuffId(zoneid, 182006, 191, 4, 4) -- Empowered Mannoroth's Gaze (fear, split AoE, leaves puddle)
+-- Gazing Shadows
+GridStatusRaidDebuff:DebuffId(zoneid, 182031, 192, 3, 3) -- Gazing Shadows (standing in void zone)
+-- Mythic
+GridStatusRaidDebuff:DebuffId(zoneid, 186362, 193, 6, 6, false, true) -- Wrath of Gul'dan (stacked debuff)
+GridStatusRaidDebuff:DebuffId(zoneid, 190482, 194, 2, 2, true, true) -- Gripping Shadows (stacking debuff)
 
-
---Archimonde
-GridStatusRaidDebuff:BossNameId(zoneid, 190, "Archimonde")
-GridStatusRaidDebuff:DebuffId(zoneid, 185590, 191, 6, 6) --Desecrate
-GridStatusRaidDebuff:DebuffId(zoneid, 183864, 192, 6, 6) --Shadow Blast
-GridStatusRaidDebuff:DebuffId(zoneid, 183828, 193, 6, 6) --Death Brand
-GridStatusRaidDebuff:DebuffId(zoneid, 184931, 194, 7, 7) --Shackled Torrment
-GridStatusRaidDebuff:DebuffId(zoneid, 182879, 195, 6, 6) --Doomfire Fixate
-GridStatusRaidDebuff:DebuffId(zoneid, 182878, 196, 6, 6) --Doomfire
-GridStatusRaidDebuff:DebuffId(zoneid, 185014, 197, 6, 6, true) -- Focused Chaos (target)
-GridStatusRaidDebuff:DebuffId(zoneid, 186123, 198, 6, 6, true) -- Wrought Chaos (player explodes towards Focused Chaos target)
+-- Archimonde
+GridStatusRaidDebuff:BossNameId(zoneid, 200, "Archimonde")
+-- GridStatusRaidDebuff:DebuffId(zoneid, 185590, 200, 6, 6) --Desecrate (not a debuff)
+-- Phase 1
+GridStatusRaidDebuff:DebuffId(zoneid, 183634, 201, 6, 6, true) -- Shadowfel Burst (target, thrown in air)
+GridStatusRaidDebuff:DebuffId(zoneid, 183828, 202, 4, 4) -- Death Brand (tank dot)
+-- Doomfire Spirit
+GridStatusRaidDebuff:DebuffId(zoneid, 182879, 203, 6, 6, true) -- Doomfire Fixate (target)
+GridStatusRaidDebuff:DebuffId(zoneid, 182878, 204, 2, 2, true, true) -- Doomfire (stacking dot, from stepping in)
+-- Hellfire Deathcaller
+GridStatusRaidDebuff:DebuffId(zoneid, 183864, 205, 3, 3, true, true) -- Shadow Blast (stacking debuff)
+-- Phase 2
+GridStatusRaidDebuff:DebuffId(zoneid, 184964, 206, 6, 6) -- Shackled Torment (debuff, raid damage when removed)
+GridStatusRaidDebuff:DebuffId(zoneid, 186123, 207, 5, 5, true, true) -- Wrought Chaos (player explodes towards Focused Chaos target)
+GridStatusRaidDebuff:DebuffId(zoneid, 185014, 208, 5, 5, true) -- Focused Chaos (target)
+-- Felborne Overfiend
+-- Dreadstalker
+-- Phase 3
+GridStatusRaidDebuff:DebuffId(zoneid, 186961, 209, 6, 6, true) -- Nether Banish (tank banish)
+-- Nether Tear
+GridStatusRaidDebuff:DebuffId(zoneid, 189891, 210, 3, 3) -- Nether Tear (standing in void zone)
+-- Living Shadows
+GridStatusRaidDebuff:DebuffId(zoneid, 187047, 211, 2, 2, true) -- Devour Life (healing debuff)
 
