@@ -380,19 +380,20 @@ GridStatusRaidDebuff:DebuffId(zoneid, 186134, 151, 2, 2, true) -- Feltouched (de
 GridStatusRaidDebuff:DebuffId(zoneid, 186135, 152, 2, 2, true) -- Voidtouched (debuff)
 GridStatusRaidDebuff:DebuffId(zoneid, 186407, 153, 7, 7, true) -- Fel Surge (dot, drops fire)
 GridStatusRaidDebuff:DebuffId(zoneid, 186333, 154, 7, 7, true) -- Void Surge (dot, drops fire)
+GridStatusRaidDebuff:DebuffId(zoneid, 185656, 155, 1, 1, true, true) -- Shadowfel Annihilation (debuff)
 -- Vanguard Akkelion
-GridStatusRaidDebuff:DebuffId(zoneid, 186500, 155, 6, 6, false, true) --Chains Of Fel
-GridStatusRaidDebuff:DebuffId(zoneid, 186448, 156, 4, 4, true, true) -- Felblaze Flurry (tank debuff stack)
+GridStatusRaidDebuff:DebuffId(zoneid, 186500, 156, 6, 6, false, true) --Chains Of Fel
+GridStatusRaidDebuff:DebuffId(zoneid, 186448, 157, 4, 4, true, true) -- Felblaze Flurry (tank debuff stack)
 -- Wild Pyromaniac
-GridStatusRaidDebuff:DebuffId(zoneid, 188208, 157, 3, 3, true, true) -- Ablaze (stacking dot)
+GridStatusRaidDebuff:DebuffId(zoneid, 188208, 158, 3, 3, true, true) -- Ablaze (stacking dot)
 -- Omnus
-GridStatusRaidDebuff:DebuffId(zoneid, 186547, 158, 5, 5) -- Black Hole (sucking in, dot)
-GridStatusRaidDebuff:DebuffId(zoneid, 186785, 159, 4, 4, true, true) -- Withering Gaze (tank debuff stack)
+GridStatusRaidDebuff:DebuffId(zoneid, 186547, 159, 5, 5) -- Black Hole (sucking in, dot)
+GridStatusRaidDebuff:DebuffId(zoneid, 186785, 160, 4, 4, true, true) -- Withering Gaze (tank debuff stack)
 -- Unstable Voidfiend
 -- Chaotic Felblaze
-GridStatusRaidDebuff:DebuffId(zoneid, 186073, 160, 3, 3, true, true) -- Felsinged (stacking dot, standing in fire)
+GridStatusRaidDebuff:DebuffId(zoneid, 186073, 161, 3, 3, true, true) -- Felsinged (stacking dot, standing in fire)
 -- Creeping Void
-GridStatusRaidDebuff:DebuffId(zoneid, 186063, 161, 3, 3, true, true) -- Wasting Void (stacking dot, standing in fire)
+GridStatusRaidDebuff:DebuffId(zoneid, 186063, 162, 3, 3, true, true) -- Wasting Void (stacking dot, standing in fire)
 
 
 -- Tyrant Velhari
@@ -442,25 +443,37 @@ GridStatusRaidDebuff:DebuffId(zoneid, 190482, 194, 2, 2, true, true) -- Gripping
 
 -- Archimonde
 GridStatusRaidDebuff:BossNameId(zoneid, 200, "Archimonde")
--- GridStatusRaidDebuff:DebuffId(zoneid, 185590, 200, 6, 6) --Desecrate (not a debuff)
+-- GridStatusRaidDebuff:DebuffId(zoneid, 185590, 200, 6, 6) -- Desecrate (not a debuff)
 -- Phase 1
 GridStatusRaidDebuff:DebuffId(zoneid, 183634, 201, 6, 6, true) -- Shadowfel Burst (target, thrown in air)
 GridStatusRaidDebuff:DebuffId(zoneid, 183828, 202, 4, 4) -- Death Brand (tank dot)
+GridStatusRaidDebuff:DebuffId(zoneid, 183963, 203, 1, 1, true, false, 0, true) -- Light of the Naaru (movement buff, immune to shadow damage)
 -- Doomfire Spirit
-GridStatusRaidDebuff:DebuffId(zoneid, 182879, 203, 6, 6, true) -- Doomfire Fixate (target)
-GridStatusRaidDebuff:DebuffId(zoneid, 182878, 204, 2, 2, true, true) -- Doomfire (stacking dot, from stepping in)
+GridStatusRaidDebuff:DebuffId(zoneid, 182879, 204, 6, 6, true) -- Doomfire Fixate (target)
+GridStatusRaidDebuff:DebuffId(zoneid, 182878, 205, 2, 2, true, true) -- Doomfire (stacking dot, from stepping in)
 -- Hellfire Deathcaller
-GridStatusRaidDebuff:DebuffId(zoneid, 183864, 205, 3, 3, true, true) -- Shadow Blast (stacking debuff)
+GridStatusRaidDebuff:DebuffId(zoneid, 183864, 206, 3, 3, true, true) -- Shadow Blast (stacking debuff)
 -- Phase 2
-GridStatusRaidDebuff:DebuffId(zoneid, 184964, 206, 6, 6) -- Shackled Torment (debuff, raid damage when removed)
-GridStatusRaidDebuff:DebuffId(zoneid, 186123, 207, 5, 5, true, true) -- Wrought Chaos (player explodes towards Focused Chaos target)
-GridStatusRaidDebuff:DebuffId(zoneid, 185014, 208, 5, 5, true) -- Focused Chaos (target)
+GridStatusRaidDebuff:DebuffId(zoneid, 184964, 207, 6, 6) -- Shackled Torment (debuff, raid damage when removed)
+GridStatusRaidDebuff:DebuffId(zoneid, 186123, 208, 5, 5, true, true) -- Wrought Chaos (player explodes towards Focused Chaos target)
+GridStatusRaidDebuff:DebuffId(zoneid, 185014, 209, 5, 5, true) -- Focused Chaos (target)
 -- Felborne Overfiend
 -- Dreadstalker
 -- Phase 3
-GridStatusRaidDebuff:DebuffId(zoneid, 186961, 209, 6, 6, true) -- Nether Banish (tank banish)
+GridStatusRaidDebuff:DebuffId(zoneid, 186961, 210, 6, 6, true) -- Nether Banish (tank banish)
 -- Nether Tear
-GridStatusRaidDebuff:DebuffId(zoneid, 189891, 210, 3, 3) -- Nether Tear (standing in void zone)
+GridStatusRaidDebuff:DebuffId(zoneid, 189891, 211, 3, 3) -- Nether Tear (standing in void zone)
 -- Living Shadows
-GridStatusRaidDebuff:DebuffId(zoneid, 187047, 211, 2, 2, true) -- Devour Life (healing debuff)
+GridStatusRaidDebuff:DebuffId(zoneid, 187047, 212, 2, 2, true) -- Devour Life (healing debuff)
+-- Twisting Nether
+GridStatusRaidDebuff:DebuffId(zoneid, 190341, 213, 2, 2, true, true) -- Nether Corruption (stacking debuff)
+-- Shadowed Netherwalker
+GridStatusRaidDebuff:DebuffId(zoneid, 187255, 214, 3, 3) -- Nether Storm (standing in)
+-- Void Star
+GridStatusRaidDebuff:DebuffId(zoneid, 189895, 215, 5, 5) -- Void Star Fixate (fixate)
+-- Mythic
+GridStatusRaidDebuff:DebuffId(zoneid, 190400, 216, 3, 3, true, true) -- Touch of the Legion (debuff)
+GridStatusRaidDebuff:DebuffId(zoneid, 187050, 217, 6, 6, true) -- Mark of the Legion (split damage)
+-- Source of Chaos
+GridStatusRaidDebuff:DebuffId(zoneid, 190706, 218, 2, 2, true, true) -- Source of Chaos (stacking debuff)
 
