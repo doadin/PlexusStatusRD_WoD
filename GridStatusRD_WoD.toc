@@ -2,7 +2,7 @@
 ## Title: GridStatusRaidDebuff(WoD)
 ## Notes: Debuff List for WoD
 ## Author: Doadin (Malorne-US)
-## Version: v1.99
+## Version: 6.20
 ## Grid Author: Pastamancer & Maia
 ## Dependencies: GridStatusRaidDebuff
 
