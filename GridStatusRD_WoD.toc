@@ -1,4 +1,4 @@
-## Interface: 70000
+## Interface: 70200
 ## Title: GridStatusRaidDebuff(WoD)
 ## Notes: Debuff List for WoD
 ## Author: Doadin (Malorne-US)
