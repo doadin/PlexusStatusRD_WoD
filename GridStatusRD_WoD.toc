@@ -1,8 +1,8 @@
-## Interface: 70200
+## Interface: 80000
 ## Title: GridStatusRaidDebuff(WoD)
 ## Notes: Debuff List for WoD
 ## Author: Doadin (Malorne-US)
-## Version: 7.00
+## Version: 8.0.1.1
 ## Grid Author: Pastamancer & Maia
 ## Dependencies: GridStatusRaidDebuff
 
