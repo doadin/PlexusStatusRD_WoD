@@ -1,5 +1,5 @@
 --local zone = "Blackrock Foundry"
-local zoneid = 988
+local zoneid = 597
 
 --zoneid, debuffID, order, icon_priority, colorpriority, timer, stackable, color, defaultdisable, noicon
 --true, true is for stackable

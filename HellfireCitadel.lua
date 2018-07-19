@@ -1,5 +1,5 @@
 --local zone = "Hellfire Citadel"
-local zoneid = 1026
+local zoneid = 661
 
 --zoneid, debuffID, order, icon_priority, colorpriority, timer, stackable, color, defaultdisable, noicon
 --true, true is for stackable
