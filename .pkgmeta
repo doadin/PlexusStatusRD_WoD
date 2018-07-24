@@ -5,4 +5,7 @@ required-dependencies:
 
 #manual-changelog: CHANGELOG.txt
 
-license-output: LICENSE.txt
+#license-output: LICENSE.txt
+
+ignore:
+ - .pkgmeta
