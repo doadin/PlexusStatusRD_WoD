@@ -1,4 +1,4 @@
-package-as: GridStatusRD_WoD
+package-as: PlexusStatusRD_WoD
 
 ignore:
  - .pkgmeta

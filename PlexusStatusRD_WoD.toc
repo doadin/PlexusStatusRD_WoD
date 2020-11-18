@@ -1,0 +1,18 @@
+#@retail@
+## Interface: 90002
+#@end-retail@
+#@non-retail@
+## Interface: 11305
+#@end-non-retail@
+## Version: @project-version@
+## Title: PlexusStatusRaidDebuff(WoD)
+## Notes: Debuff List for WoD
+## Author: Doadin
+## Grid Author: Pastamancer & Maia
+## Dependencies: GridStatusRaidDebuff
+## OptionalDeps: Grid, Plexus
+## X-Curse-Project-ID: 85975
+
+BlackrockFoundry.lua
+Highmaul.lua
+HellfireCitadel.lua
