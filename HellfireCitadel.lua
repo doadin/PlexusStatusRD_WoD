@@ -4,11 +4,6 @@ local zoneid = 661
 --zoneid, debuffID, order, icon_priority, colorpriority, timer, stackable, color, defaultdisable, noicon
 --true, true is for stackable
 
--- Check Compatibility
-if GridStatusRD_WoD.rd_version < 600 then
-	return
-end
-
 --Trash
 
 -- Hellfire Assault trash

@@ -4,11 +4,6 @@ local zoneid = 612
 --zoneid, debuffID, order, icon_priority, colorpriority, timer, stackable, color, defaultdisable, noicon
 --, true, true is for stackable
 
--- Check Compatibility
-if GridStatusRD_WoD.rd_version < 600 then
-	return
-end
-
 --Trash
 GridStatusRaidDebuff:DebuffId(zoneid, 175601, 1, 5, 5) -- Trash TAINTED CLAWS
 GridStatusRaidDebuff:DebuffId(zoneid, 175599, 1, 4, 4) -- Trash DEVOUR
