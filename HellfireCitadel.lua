@@ -4,11 +4,6 @@ local zoneid = 661
 --zoneid, debuffID, order, icon_priority, colorpriority, timer, stackable, color, defaultdisable, noicon
 --true, true is for stackable
 
--- Check Compatibility
-if GridStatusRD_WoD.rd_version < 600 then
-	return
-end
-
 --Trash
 
 -- Hellfire Assault trash
@@ -51,16 +46,7 @@ GridStatusRaidDebuff:DebuffId(zoneid, 188482, 1, 3, 3, true) -- Fel Infection (d
 GridStatusRaidDebuff:DebuffId(zoneid, 188484, 1, 1, 1, true) -- Fel Sickness (prevents passing Fel Infection)
 
 -- Shadow Infuser
-
--- Insanity is also the name of the debuff from hunter pet's Ancient Hysteria
--- This causes that Insanity to show up with GridSTatusRaidDebuff prior to r33 (6.22)
-if GridStatusRD_WoD.rd_version < 622 then
-   -- Disable the trash Insanity debuff
-   GridStatusRaidDebuff:DebuffId(zoneid, 188541, 1, 1, 1, true, false, 0, true) -- Insanity (disabled)
-else 
-   -- GridStatusRaidDebuff versions over 6.22 can handle displaying this debuff
-   GridStatusRaidDebuff:DebuffId(zoneid, 188541, 1, 6, 6, true) -- Insanity (mind control)
-end
+GridStatusRaidDebuff:DebuffId(zoneid, 188541, 1, 6, 6, true) -- Insanity (mind control)
 
 GridStatusRaidDebuff:DebuffId(zoneid, 187099, 1, 5, 5) -- Residual Shadows (standing in puddle)
 -- Shadow Infuser also does Fel Infection/Sickness

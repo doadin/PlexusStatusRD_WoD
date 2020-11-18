@@ -4,11 +4,6 @@ local zoneid = 597
 --zoneid, debuffID, order, icon_priority, colorpriority, timer, stackable, color, defaultdisable, noicon
 --true, true is for stackable
 
--- Check Compatibility
-if GridStatusRD_WoD.rd_version < 600 then
-	return
-end
-
 -- Trash
 
 -- Slagworks/Black Forge trash
@@ -106,15 +101,8 @@ GridStatusRaidDebuff:DebuffId(zoneid, 175583, 1, 5, 5, true) -- Living Blaze (Ao
 -- Fungal Spores (debuff that is a buff?)
 GridStatusRaidDebuff:DebuffId(zoneid, 174704, 1, 1, 1, true, false, 0, true) -- Fungal Spores (disabled)
 
--- this Exhaustion debuff causes problems with GridStatusRaidDebuff prior to r28 (6.11)
--- It would cause the Exhaustion from Heroism to always be displayed
-if GridStatusRD_WoD.rd_version < 611 then
-   -- Disable the trash Exhaustion debuff
-   GridStatusRaidDebuff:DebuffId(zoneid, 163714, 1, 1, 1, true, false, 0, true) -- Exhaustion (disabled)
-else 
-   -- GridStatusRaidDebuff versions over 6.11 can handle displaying this debuff
-   GridStatusRaidDebuff:DebuffId(zoneid, 163714, 1, 1, 1, true) -- Exhaustion (root)
-end
+-- GridStatusRaidDebuff versions over 6.11 can handle displaying this debuff
+GridStatusRaidDebuff:DebuffId(zoneid, 163714, 1, 1, 1, true) -- Exhaustion (root)
 
 -- Bosses
 
