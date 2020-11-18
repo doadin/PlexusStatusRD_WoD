@@ -9,7 +9,7 @@
 ## Notes: Debuff List for WoD
 ## Author: Doadin
 ## Grid Author: Pastamancer & Maia
-## Dependencies: GridStatusRaidDebuff
+## Dependencies: PlexusStatusRaidDebuff
 ## OptionalDeps: Grid, Plexus
 ## X-Curse-Project-ID: 85975
 
