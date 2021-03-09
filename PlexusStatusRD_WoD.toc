@@ -9,8 +9,7 @@
 ## Notes: Debuff List for WoD
 ## Author: Doadin
 ## Grid Author: Pastamancer & Maia
-## Dependencies: PlexusStatusRaidDebuff
-## OptionalDeps: Grid, Plexus
+## Dependencies: Plexus, PlexusStatusRaidDebuff
 ## X-Curse-Project-ID: 85975
 
 BlackrockFoundry.lua
