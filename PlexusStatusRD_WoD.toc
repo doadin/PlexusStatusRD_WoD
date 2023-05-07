@@ -11,6 +11,8 @@
 ## Dependencies: Plexus, PlexusStatusRaidDebuff
 ## X-Curse-Project-ID: 85975
 
+## IconTexture: Interface\AddOns\Plexus\Media\icon
+
 BlackrockFoundry.lua
 Highmaul.lua
 HellfireCitadel.lua
