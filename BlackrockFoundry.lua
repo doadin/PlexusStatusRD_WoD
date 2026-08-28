@@ -1,5 +1,9 @@
 --local zone = "Blackrock Foundry"
 local zoneid = 597
+local Plexus = _G.Plexus
+if Plexus:IsRetailWow() then
+    return
+end
 
 --zoneid, debuffID, order, icon_priority, colorpriority, timer, stackable, color, defaultdisable, noicon
 --true, true is for stackable

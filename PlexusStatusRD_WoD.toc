@@ -15,6 +15,6 @@
 
 ## IconTexture: Interface\AddOns\Plexus\Media\icon
 
-BlackrockFoundry.lua
-Highmaul.lua
-HellfireCitadel.lua
+BlackrockFoundry.lua [AllowLoadGameType standard]
+Highmaul.lua [AllowLoadGameType standard]
+HellfireCitadel.lua [AllowLoadGameType standard]

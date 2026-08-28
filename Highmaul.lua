@@ -1,5 +1,9 @@
 --local zone = "Highmaul"
 local zoneid = 612
+local Plexus = _G.Plexus
+if Plexus:IsRetailWow() then
+    return
+end
 
 --zoneid, debuffID, order, icon_priority, colorpriority, timer, stackable, color, defaultdisable, noicon
 --, true, true is for stackable
